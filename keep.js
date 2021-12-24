@@ -7,7 +7,8 @@ https://www.xiaeke.com/benmao/index.php/Home/MorningTree/gainEnergy url script-r
 [task_local]
 
 0 5,8 * * * https://raw.githubusercontent.com/benpaodedadou/task/daobabing/keep.js, tag=keep打卡, enabled=true
-
+主机
+hostname= www.xiaeke.com
 */
 const $ = new Env('keep打卡');
 let status;
