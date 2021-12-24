@@ -1,5 +1,13 @@
 /*
 微信小程序：keep早起打卡
+重写：
+[rewrite_local]
+https://www.xiaeke.com/benmao/index.php/Home/MorningTree/gainEnergy url script-request-header https://raw.githubusercontent.com/benpaodedadou/task/daobabing/keep.js
+脚本
+[task_local]
+
+0 5,8 * * * https://raw.githubusercontent.com/benpaodedadou/task/daobabing/keep.js, tag=keep打卡, enabled=true
+
 */
 const $ = new Env('keep打卡');
 let status;
