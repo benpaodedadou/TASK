@@ -1,5 +1,6 @@
 /*
 微信小程序：keep早起打卡
+ck：点击浇水获取数据
 重写：
 [rewrite_local]
 https://www.xiaeke.com/benmao/index.php/Home/MorningTree/gainEnergy url script-request-header https://raw.githubusercontent.com/benpaodedadou/task/daobabing/keep.js
